@@ -13,6 +13,23 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem; /* Footer height */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; /* Footer height */
+}
+
 :root {
     --bs-blue: #b58900;
     --bs-indigo: #6610f2;
@@ -613,6 +630,11 @@ progress {
     margin-bottom: 1rem;
     font-size: 0.875em;
     color: #839496;
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
 
     .blockquote-footer::before {
